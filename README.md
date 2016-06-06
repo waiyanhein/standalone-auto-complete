@@ -1,5 +1,5 @@
 # standalone-auto-complete
-This is the fully customizable auto complete javascript search box plugin especially for standalone input search like on Musixmatch and Melomap.com. Amazing feature of this plugin is you can choose the search result by pressing up and down arrow keys on keyboard. So this support selecting by keyword as well. This plugin is suitable if you want to develop standlone search box like search engine with auto complete feature and beautiful ui include images. Design is fully customizable. So you can design it to whatever amazing design you want.
+This is the fully customizable jquery auto complete search plugin especially for search form with standalone input similiar to what using by Musixmatch and Melomap.com. Amazing feature of this plugin is you can choose the search result by pressing up and down arrow keys on keyboard. So this supports selecting result by keyboard as well. This plugin is suitable if you want to develop standlone search engine with auto complete feature and beautiful ui with images. Design is fully customizable. So you can design it to whatever amazing design you want.
 
 ###These are the screenshots
 ![example screenshots](https://github.com/waiyanhein/standalone-auto-complete/blob/master/search_image.png)
@@ -35,7 +35,7 @@ $(function(){
 })
 ```
 
-#####From server, return JSON in the format in below example
+#####From server, return JSON in the format as below example
 ```
 [
   {
@@ -58,13 +58,13 @@ $(function(){
   }
 ]
 ```
-#####To filter the data by using keyword entered in the input catch the keyword with "keyword" field using HTTP Get from server
+#####To filter the data by using keyword entered in the input, catch the keyword with "keyword" field from server using HTTP Get
 
 #####Catching in PHP
 ```
 $keyword = $_GET['keyword'];
 ```
-#####In asp.net mvc bind the data in action like this
+#####In asp.net mvc, bind the keyword in action like this
 ```
 public JsonResult GetData(string keyword)
 {
@@ -78,11 +78,11 @@ public JsonResult GetData(string keyword)
 
 ####Options
 ######search_start_limit : default value is 2
-That is the setting for the start when the limited number of word is enterd. For example, it you set it to 3 and it you enter only two words in search box, it will not start working.
+That is the setting for the search to start when the limited number of words are enterd. For example, it you set it to 3 and you enter only two words in search box, auto complete will not start working.
 ######url
-This is the url to detch data from server. This field is essential. Use like in the above example.
+This is the url to fetch data from server. This field is essential. Use like in the above example.
 ######s_item_border : default value is "2px solid #6699ff"
-This is the default value for selected item border. Selected item mean when you choose item from result using up or down arrow key on keyboard, current item will be hightlighted with the border in this css value. Note you have to set the full css rule as mentioned default value.
+This is the default value for selected item border. Selected item means when you choose item from result using up or down arrow key on keyboard, current item will be hightlighted with the border in this css value. Note you have to set the full css rule as mentioned default value.
 ######item_border : default value is "1px solid #cccccc"
 This is the border css value for searched item border. Note: set the full css rule.
 ######item_border_radius: default value is "5px"
