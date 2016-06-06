@@ -81,7 +81,7 @@ public JsonResult GetData(string keyword)
 That is the setting for the start when the limited number of word is enterd. For example, it you set it to 3 and it you enter only two words in search box, it will not start working.
 ######url
 This is the url to detch data from server. This field is essential. Use like in the above example.
-######s_item_border : default value is "1px solid #6699ff"
+######s_item_border : default value is "2px solid #6699ff"
 This is the default value for selected item border. Selected item mean when you choose item from result using up or down arrow key on keyboard, current item will be hightlighted with the border in this css value. Note you have to set the full css rule as mentioned default value.
 ######item_border : default value is "1px solid #cccccc"
 This is the border css value for searched item border. Note: set the full css rule.
