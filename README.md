@@ -82,14 +82,14 @@ That is the setting for the search to start when the limited number of words are
 ######url
 This is the url to fetch data from server. This field is essential. Use like in the above example.
 ######s_item_border : default value is "2px solid #6699ff"
-This is the default value for selected item border. Selected item means when you choose item from result using up or down arrow key on keyboard, current item will be hightlighted with the border in this css value. Note you have to set the full css rule as mentioned default value.
+This is the css rule for selected item border. Selected item means when you choose item from result found using up or down arrow key on keyboard, current item will be hightlighted with the border. This is the css rule for that border. Note you have to set the full css rule as mentioned in default value.
 ######item_border : default value is "1px solid #cccccc"
-This is the border css value for searched item border. Note: set the full css rule.
+This is the border css rule for searched item border. Note: set the full css rule.
 ######item_border_radius: default value is "5px"
-This is the value for border radius for individual item.
+This is the css rule for border radius for each item.
 ######content_bg_color: default value is ""#f2f2f2""
 This is the background color for the search result container and its related. 
 ######content_border_radius: default value is ""10px""
 This is the border radius for result container, its related.
 ######item_bg: default valus is "#ffffff"
-This is the backgorund color for the individual item. 
+This is the backgorund color for the each found item. 
