@@ -1,5 +1,5 @@
 # standalone-auto-complete
-This is the fully customizable jquery auto complete search plugin especially for search form with standalone input similiar to what using by Musixmatch and Melomap.com. Amazing feature of this plugin is you can choose the search result by pressing up and down arrow keys on keyboard. So this supports selecting result by keyboard as well. This plugin is suitable if you want to develop standlone search engine with auto complete feature and beautiful ui with images. Design is fully customizable. So you can design it to whatever amazing design you want.
+This is a highly customizable jQuery autocomplete search plugin designed specifically for search forms featuring a standalone input, similar to the ones used by Musixmatch and Melomap.com. One remarkable feature of this plugin is the ability to navigate through search results using the up and down arrow keys on the keyboard, facilitating result selection via keyboard input. This plugin is ideal for developing a standalone search engine with autocomplete functionality and an aesthetically pleasing user interface that includes images. The design is fully adaptable, allowing you to create a visually stunning layout according to your preferences.
 
 ### These are the screenshots
 ![example screenshots](https://github.com/waiyanhein/standalone-auto-complete/blob/master/search_image.png)
@@ -35,7 +35,7 @@ $(function(){
 })
 ```
 
-##### From server, return JSON in the format as below example
+##### From server, return JSON in the format as follow:
 ```
 [
   {
@@ -58,7 +58,7 @@ $(function(){
   }
 ]
 ```
-##### To filter the data by using keyword entered in the input, catch the keyword with "keyword" field from server using HTTP Get
+##### To filter the data by using keyword entered in the input, catch the keyword with "keyword" field from server using HTTP GET parameter
 
 ##### Catching in PHP
 ```
