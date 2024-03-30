@@ -4,7 +4,7 @@ This is a highly customizable jQuery autocomplete search plugin designed specifi
 ### These are the screenshots
 ![example screenshots](https://github.com/waiyanhein/standalone-auto-complete/blob/master/search_image.png)
 
->As you can see in screenshot, you can customize the UI design by overriding CSS and HTML or in Javascript code.
+>As you can see in the screenshot, you can customize the UI design by overriding CSS and HTML or by modifying the JavaScript code.
 
 ## Dependencies
 Only jquery is required to use this plugin.
